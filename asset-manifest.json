@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/sample-react-app/static/css/main.1ecd465e.css",
-    "main.js": "/sample-react-app/static/js/main.13d1c327.js",
-    "static/js/453.d9057a2c.chunk.js": "/sample-react-app/static/js/453.d9057a2c.chunk.js",
-    "index.html": "/sample-react-app/index.html",
-    "main.1ecd465e.css.map": "/sample-react-app/static/css/main.1ecd465e.css.map",
-    "main.13d1c327.js.map": "/sample-react-app/static/js/main.13d1c327.js.map",
-    "453.d9057a2c.chunk.js.map": "/sample-react-app/static/js/453.d9057a2c.chunk.js.map"
+    "main.css": "/react-leaflet-sample/static/css/main.1ecd465e.css",
+    "main.js": "/react-leaflet-sample/static/js/main.d09e88aa.js",
+    "static/js/453.d9057a2c.chunk.js": "/react-leaflet-sample/static/js/453.d9057a2c.chunk.js",
+    "index.html": "/react-leaflet-sample/index.html",
+    "main.1ecd465e.css.map": "/react-leaflet-sample/static/css/main.1ecd465e.css.map",
+    "main.d09e88aa.js.map": "/react-leaflet-sample/static/js/main.d09e88aa.js.map",
+    "453.d9057a2c.chunk.js.map": "/react-leaflet-sample/static/js/453.d9057a2c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1ecd465e.css",
-    "static/js/main.13d1c327.js"
+    "static/js/main.d09e88aa.js"
   ]
 }
