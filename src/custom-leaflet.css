@@ -1,0 +1,218 @@
+:root {
+  --glassmorph-bg:rgba(3, 39, 105, 0.5);
+  --glassmorph-bg-hover: rgba(3, 39, 105, 0.75);
+  --glassmorph-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  --glassmorph-border-radius: 12px;
+  --glassmorph-text-color: #fff;
+  --glassmorph-backdrop-filter: blur(5px) saturate(180%)
+}
+
+.custom-leaflet .leaflet-popup-content-wrapper, .custom-leaflet .leaflet-popup-tip {
+  -webkit-backdrop-filter: var(--glassmorph-backdrop-filter);
+  -moz-backdrop-filter: var(--glassmorph-backdrop-filter);
+  -o-backdrop-filter: var(--glassmorph-backdrop-filter);
+  backdrop-filter: var(--glassmorph-backdrop-filter);
+  background-color: var(--glassmorph-bg);
+  color: var(--glassmorph-text-color);
+}
+
+.custom-leaflet .leaflet-popup-content-wrapper {
+  border-radius: var(--glassmorph-border-radius);
+}
+
+.custom-leaflet .leaflet-popup-tip {
+  filter: drop-shadow(0 2px 6px var(--glassmorph-shadow));
+}
+
+.custom-leaflet .leaflet-control-layers-expanded {
+  -webkit-backdrop-filter: var(--glassmorph-backdrop-filter);
+  -moz-backdrop-filter: var(--glassmorph-backdrop-filter);
+  -o-backdrop-filter: var(--glassmorph-backdrop-filter);
+  backdrop-filter: var(--glassmorph-backdrop-filter);
+  box-shadow: var(--glassmorph-shadow);
+  background-color: var(--glassmorph-bg);
+  color: var(--glassmorph-text-color);
+  border-radius: var(--glassmorph-border-radius);
+}
+
+.custom-leaflet .leaflet-bar {
+  border-radius: var(--glassmorph-border-radius);
+}
+
+.custom-leaflet .leaflet-bar a {
+  -webkit-backdrop-filter: var(--glassmorph-backdrop-filter);
+  -moz-backdrop-filter: var(--glassmorph-backdrop-filter);
+  -o-backdrop-filter: var(--glassmorph-backdrop-filter);
+  backdrop-filter: var(--glassmorph-backdrop-filter);
+  background-color: var(--glassmorph-bg);
+  color: var(--glassmorph-text-color);
+  box-shadow: var(--glassmorph-shadow);
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  transition: background-color 0.3s ease;
+}
+
+.custom-leaflet .leaflet-bar a:first-child {
+  border-top-left-radius: var(--glassmorph-border-radius);
+  border-top-right-radius: var(--glassmorph-border-radius);
+}
+
+.custom-leaflet .leaflet-bar a:last-child {
+  border-bottom-left-radius: var(--glassmorph-border-radius);
+  border-bottom-right-radius: var(--glassmorph-border-radius);
+}
+
+.custom-leaflet .leaflet-bar a:hover {
+  background-color: var(--glassmorph-bg-hover);
+}
+
+.leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
+  border: none;
+}
+
+.custom-leaflet .leaflet-control-layers-separator {
+  border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+.custom-leaflet .leaflet-control-layers label {
+  font-size: 14px;
+}
+
+.leaflet-container a.leaflet-popup-close-button {
+  color: var(--glassmorph-text-color);
+  opacity: 0.8;
+  animation: fadeIn 0.3s ease;
+  border-top-right-radius: var(--glassmorph-border-radius);
+}
+
+.leaflet-container a.leaflet-popup-close-button:hover {
+  color: var(--glassmorph-text-color);
+  opacity: 1;
+}
+
+.custom-leaflet .leaflet-control-zoom-in, .custom-leaflet .leaflet-control-zoom-out {
+  font-family:'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.custom-leaflet .leaflet-popup-content p {
+  margin-bottom: 0.1rem;
+}
+
+.custom-leaflet .leaflet-div-icon {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border:none
+}
+
+.custom-leaflet .beautify-marker .marker {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 60% 100%;
+  border-bottom-left-radius: 100% 60%;
+}
+
+.custom-leaflet .marker-shadow {
+  box-shadow: 3px 2px 10px 1px rgba(15,15,15,0.75),
+        inset 1px -2px 5px rgba(15,15,15,0.5),
+        inset 1px 2px 5px rgba(207, 207, 207, 0.5);
+}
+
+.custom-leaflet .leaflet-search-input {
+  -webkit-backdrop-filter: var(--glassmorph-backdrop-filter);
+  -moz-backdrop-filter: var(--glassmorph-backdrop-filter);
+  -o-backdrop-filter: var(--glassmorph-backdrop-filter);
+  backdrop-filter: var(--glassmorph-backdrop-filter);
+  padding: 5px 10px;
+  background-color: var(--glassmorph-bg);
+  border-radius: var(--glassmorph-border-radius);
+  width: 150px;
+  color:snow;
+  box-shadow: var(--glassmorph-shadow);
+}
+
+.custom-leaflet .leaflet-search-input::placeholder {
+  color: rgba(255,250,250,0.75)
+}
+
+.custom-leaflet .leaflet-search-input:focus {
+  border-color: rgba(255,250,250,0.75);
+  box-shadow:none
+}
+
+.custom-leaflet .leaflet-search-results {
+  -webkit-backdrop-filter: var(--glassmorph-backdrop-filter);
+  -moz-backdrop-filter: var(--glassmorph-backdrop-filter);
+  -o-backdrop-filter: var(--glassmorph-backdrop-filter);
+  backdrop-filter: var(--glassmorph-backdrop-filter);
+  background-color: var(--glassmorph-bg);
+  cursor: pointer;
+  box-shadow: var(--glassmorph-shadow);
+  margin-top: 0.5rem;
+}
+
+.custom-leaflet .leaflet-search-item {
+  transition: background-color 0.05s ease;
+  white-space: nowrap;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  color:snow;
+  padding: 0 5px;
+  max-width:150px;
+}
+
+.custom-leaflet .leaflet-search-item li:first-child {
+  border-top-left-radius: var(--glassmorph-border-radius);
+  border-top-right-radius: var(--glassmorph-border-radius);
+}
+
+.custom-leaflet .leaflet-search-item:hover {
+  background-color: rgba(3, 39, 105, 0.5);
+}
+
+/* .custom-leaflet .leaflet-zoom-animated {
+  transition: transform 0.3s ease;
+} */
+
+/*.radar-pulse {
+  animation: radar-expand 1.5s infinite ease-out;
+}
+
+.radar-pulse-0 {
+  animation-delay: 0s;
+}
+
+.radar-pulse-1 {
+  animation-delay: 0.5s;
+}
+
+.radar-pulse-2 {
+  animation-delay: 1s;
+}
+
+@keyframes radar-expand {
+  0% {
+    r: 7px;
+    opacity: 0.5;
+  }
+  100% {
+    r: 25px;
+    opacity: 0;
+  }
+}*/
+
+.blink-result {
+  animation: 1.5s step-start 2s 5 backwards blink-blank;
+  visibility:hidden
+}
+
+@keyframes blink-blank {
+  50% {
+    visibility:visible
+  }
+}

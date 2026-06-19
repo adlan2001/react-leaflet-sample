@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1, h2, h3, h4, h5, h6 {
+  font-weight: revert;
+  font-size: revert;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+#root {
+  height: 100vh;
   background-color: #282c34;
-  min-height: 100vh;
+}
+
+main {
+  padding: 20px;
   display: flex;
+  height: 100%;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* sizing for the map container */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  font-family: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+.cluster-icon {
+  background-color: rgba(97, 251, 179, 0.6);
+  border: 2px solid #61fba6;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  color: #282c34;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.hotel-photo {
+  object-fit: cover;
+}
+
+.child-10 {
+  background-color: rgba(51, 255, 0, 0.7);
+  border: 2px solid #5df108
+}
+
+.child-25 {
+  background-color: rgba(179, 255, 0, 0.7);
+  border: 2px solid #bef108
+}
+
+.child-50 {
+  background-color: rgba(255, 230, 0, 0.7);
+  border: 2px solid #f1c608
+}
+
+.child-100 {
+  background-color: rgba(255, 102, 0, 0.7);
+  border: 2px solid #ee6110
+}
+
+.child-250 {
+  background-color: rgba(255, 38, 0, 0.7);
+  border: 2px solid #ee1010
 }
