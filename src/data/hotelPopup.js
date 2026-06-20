@@ -98,7 +98,7 @@ export default function HotelPopup({ attributes }) {
       </div>
       <div className='flex flex-row'>
         <div>
-          <img alt={`${imgAltTitle}`} title={`${imgAltTitle}`} className='h-[160px] w-[120px] max-w-none hotel-photo shadow-xl rounded' src={imgLinks[random]} />
+          <img alt={`${imgAltTitle}`} title={`${imgAltTitle}`} className='h-[160px] w-[120px] max-w-none hotel-photo shadow-xl rounded' src={process.env.PUBLIC_URL+'/'+imgLinks[random]} />
         </div>
         <div className='flex flex-col w-full ml-4 justify-between'>
           <table className='border-collapse'>

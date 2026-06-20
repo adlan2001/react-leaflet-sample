@@ -1,7 +1,7 @@
 // Fetch hotel data from GeoJSON file
 export const fetchHotelData = async (signal) => {
   try {
-    const response = await fetch('/hotel_kl.geojson', { signal });
+    const response = await fetch(`${process.env.PUBLIC_URL}/hotel_kl.geojson`, { signal });
     if (!response.ok) {
       throw new Error('Network response was not ok');
     }

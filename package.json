@@ -2,7 +2,7 @@
   "name": "react-leaflet",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://adlan2001.github.io/sample-react-app",
+  "homepage": "https://adlan2001.github.io/react-leaflet-sample",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
