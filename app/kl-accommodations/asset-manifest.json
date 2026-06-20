@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.1ecd465e.css",
-    "main.js": "/static/js/main.a52cbb8e.js",
-    "static/js/453.d9057a2c.chunk.js": "/static/js/453.d9057a2c.chunk.js",
-    "index.html": "/index.html",
-    "main.1ecd465e.css.map": "/static/css/main.1ecd465e.css.map",
-    "main.a52cbb8e.js.map": "/static/js/main.a52cbb8e.js.map",
-    "453.d9057a2c.chunk.js.map": "/static/js/453.d9057a2c.chunk.js.map"
+    "main.css": "/react-leaflet-sample/static/css/main.1ecd465e.css",
+    "main.js": "/react-leaflet-sample/static/js/main.8d99a4f9.js",
+    "static/js/453.d9057a2c.chunk.js": "/react-leaflet-sample/static/js/453.d9057a2c.chunk.js",
+    "index.html": "/react-leaflet-sample/index.html",
+    "main.1ecd465e.css.map": "/react-leaflet-sample/static/css/main.1ecd465e.css.map",
+    "main.8d99a4f9.js.map": "/react-leaflet-sample/static/js/main.8d99a4f9.js.map",
+    "453.d9057a2c.chunk.js.map": "/react-leaflet-sample/static/js/453.d9057a2c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1ecd465e.css",
-    "static/js/main.a52cbb8e.js"
+    "static/js/main.8d99a4f9.js"
   ]
 }
